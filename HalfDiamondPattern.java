@@ -15,7 +15,6 @@
 // **
 // *
 
-
 import java.util.Scanner;
 
 public class HalfDiamondPattern {
@@ -41,7 +40,6 @@ public class HalfDiamondPattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Take input for the number of columns
         System.out.print("Enter the number of columns: ");
         int cols = scanner.nextInt();
 
