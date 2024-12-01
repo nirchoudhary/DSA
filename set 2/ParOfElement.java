@@ -1,10 +1,13 @@
-class PairOfElement {
+//Q 60) (set 2) 
+
+class ParOfElement {
     // Naive Approach
     public static void PairOfElementNaive(int A[], int X) {
         int N = A.length;
         for (int i = 0; i < N; i++) {
             for (int j = i + 1; j < N; j++) {
                 if (A[i] + A[j] == X) {
+                    System.out.println(A[i] + "+" + A[j] + " = " + X);
                     System.out.println("Yes");
                     return;
                 }
@@ -21,6 +24,7 @@ class PairOfElement {
         while (i < j) {
             int sum = A[i] + A[j];
             if (sum == X) {
+                System.out.println(A[i] + "+" + A[j] + " = " + X);
                 System.out.println("Yes");
                 return;
             } else if (sum < X) {
@@ -33,7 +37,7 @@ class PairOfElement {
     }
 
     public static void main(String[] args) {
-        int A[] = { 1, 2, 4, 5, 7, 11 };
+        int A[] = { 4, 2, 3, 5, 6, 7, };
         int X = 9;
 
         // Call Naive Approach
