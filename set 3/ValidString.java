@@ -30,7 +30,7 @@
 import java.util.Stack;
 
 public class ValidString {
-    static boolean validParanthesis(String str) {
+    static boolean validParenthesis(String str) {
         Stack<Character> charStack = new Stack<>();
 
         for (char ch : str.toCharArray()) {
@@ -51,7 +51,7 @@ public class ValidString {
     public static void main(String[] args) {
         String str1 = "(()())";
         String str2 = "(()))";
-        System.out.println(validParanthesis(str1));
-        System.out.println(validParanthesis(str2));
+        System.out.println(validParenthesis(str1));
+        System.out.println(validParenthesis(str2));
     }
 }
