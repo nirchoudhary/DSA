@@ -1,6 +1,3 @@
-// public class InputIsValid {
-
-// }
 
 // Ques 5)Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input
 // string is valid.
