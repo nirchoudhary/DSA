@@ -1,4 +1,4 @@
-//Q 60) (set 2) 
+//Q 6 (set 2) 
 
 class ParOfElement {
     // Naive Approach
